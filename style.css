@@ -1,0 +1,26 @@
+:root{
+    /*Colores Generales*/
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;    /*Es una forma de declarar variables en css*/
+    --secundario: #0097a7;
+    --gris: #757575;
+
+    --texto-pricipal: 3.8rem;
+}
+html{
+    font-size: 62.5%;  /*Este nos sirve para que se ajuste los rem en el documeto*/
+}                      /**Se debe utilizar en todos nuestros proyectos*/
+body{
+    font-size: 16px; /*1rem = 10px*/
+    font-family: 'Raleway', sans-serif;
+}
+.titulo{
+    text-align: center;
+    font-size: var(--texto-pricipal);
+    
+    font-weight: 400;
+}
+.titulo span{
+    font-size: 2rem;
+}
